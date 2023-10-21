@@ -1,28 +1,50 @@
-div {
-    color: white;
-    background-color: red;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
+/* Exercise #4 */
+.subsection.preview {
+    width: 200px;
+    height: 400px;
 }
 
-.odd {
+.subsection.header {
+    width: 300px;
+    height: auto;
+}
+
+
+
+/* Exercise #3 */
+.firstSelector, .secondSelector { /* Adding a common seperated list of classes groups them together. */
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.firstSelector { /* Class */
+    background-color: black;
+    color: white;
+}
+
+.secondSelector { /* Class */
+    background-color: yellow;
+
+}
+
+ /* Exercise #2 */
+.odd { /* Class */
     background-color: rgb(255, 167, 167);
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
-.adjust-font-size {
+.adjust-font-size { /* Class */
     font-size: 24px;
 }
 
-.Number2 {
+.Number2 { /* ID */
     color: #0000ff;
     font-size: 36px;
     background-color: white;
     text-align: left;
 }
 
-#Number4 {
+#Number4 { /* ID */
     background-color: hsl(120, 100%, 75%);
     font-size: 24px;
     font-weight: bold;
