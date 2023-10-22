@@ -1,3 +1,10 @@
+/* Exercise #5 */
+.earl .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
 /* Exercise #4 */
 .subsection.preview {
     width: 200px;
